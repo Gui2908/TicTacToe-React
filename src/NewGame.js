@@ -6,7 +6,7 @@ class NewGame extends Component {
     return(
       <div className="button">
 
-        <button onClick={this.props.reset}>New Game</button>
+        <button className ="buttonText" onClick={this.props.reset}>New Game</button>
       </div>
     )
   }

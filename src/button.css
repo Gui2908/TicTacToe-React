@@ -1,4 +1,6 @@
 .button{
-  display:flex;
+  margin: auto;
+  padding-top: 15px;
   justify-content: center;
+  height: auto;
 }

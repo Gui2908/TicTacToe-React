@@ -84,8 +84,10 @@ class Square extends Component {
   }
   render() {
     return (
-      <div className = "Square" onClick = {this.play}>
-        {this.state.value}
+      <div className = "Wrapper">
+        <div className = "Square" onClick = {this.play}>
+          {this.state.value}
+        </div>
       </div>
     )
   }

@@ -1,12 +1,53 @@
 .Square {
-  font-size: 24vmin;
-  max-width: 27vh;
-  max-height: 27vh;
+  font-size: 21vmin;
+  max-width: 24vh;
+  max-height: 24vh;
   width: 30vw;
   height: 30vw;
-  border: 1px solid #000;
+  border: 3.5px groove black;
   border-radius: 10%;
   text-align: center;
   user-select: none;
-  background-color: #FFAE42
+  background-color: #FFAE42;
+  margin-top: 1px;
+  margin-left: 1px;
+}
+
+.Wrapper:hover .Square{
+  /* -webkit-animation-name: spinner;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 2s; */
+  animation-name: spinner;
+  animation-timing-function:cubic-bezier();
+  animation-iteration-count: 1;
+  animation-duration: 7s;
+  /* -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d; */
+}
+
+/* @-webkit-keyframes spinner {
+  from {
+    -webkit-transform: rotateY(0deg);
+  }
+  to {
+    -webkit-transform: rotateY(-360deg);
+  }
+} */
+
+/* all other browsers */
+
+@keyframes spinner {
+  from {
+    /* -moz-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg); */
+    transform: rotateY(0deg);
+  }
+  to {
+    /* -moz-transform: rotateY(-360deg);
+    -ms-transform: rotateY(-360deg); */
+    transform: rotateY(-1260deg);
+  }
 }

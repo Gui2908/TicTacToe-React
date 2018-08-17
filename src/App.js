@@ -67,9 +67,9 @@ class App extends Component {
         <Header/>
         <div className="ttt">
           {squares}
+          <br/>
+          <NewGame reset = {this.reset}/>
         </div>
-        <br/>
-        <NewGame reset = {this.reset}/>
       </main>
     );
   }

@@ -1,14 +1,59 @@
 
 .ttt {
   display: grid;
+  height: fill;
   justify-content: center;
   grid-template-columns: auto auto auto;
   grid-template-rows: auto auto auto;
   grid-column-gap: 2px;
   grid-row-gap: 2px;
-  /* border: 5px solid red; */
+  background: linear-gradient(to bottom right,rgba(89,89,89,.5),rgba(89,89,89,.5)),url('./headerbackground.jpg');
+  background-repeat: repeat;
+  background-size: cover;
+  padding-top: 15px;
+  background-color: orange;
+  background-blend-mode:exclusion;
+
 }
 
 .header {
+  font-family: "Comic Sans MS", cursive, sans-serif;
   text-align: center;
+
+  /* background-color: orange;
+  background-blend-mode: exclusion; */
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 0;
+  font-size: 6vh;
+
+
+}
+h1.header {
+background: linear-gradient(to bottom right,rgba(89,89,89,.5),rgba(89,89,89,.5)), url('./tictac.jpg');
+background-size:auto;
+background-repeat: repeat;
+color:#FF7A00;
+
+
+opacity: 1;
+font-weight:bolder;
+
+
+
+
+
+
+}
+
+.headerBox{
+
+  font-size: 6vh;
+  color: #f7e1a5;
+  text-shadow: 2px 2px #fff;}
+
+main{
+  width: 100%;
+  position: fixed;
+
 }
