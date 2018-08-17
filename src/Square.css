@@ -1,0 +1,12 @@
+.Square {
+  font-size: 24vmin;
+  max-width: 27vh;
+  max-height: 27vh;
+  width: 30vw;
+  height: 30vw;
+  border: 1px solid #000;
+  border-radius: 10%;
+  text-align: center;
+  user-select: none;
+  background-color: #FFAE42
+}
